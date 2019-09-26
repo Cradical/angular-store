@@ -10,7 +10,8 @@ import { products } from '../products'
 export class ProductListComponent implements OnInit {
   products = products
 
-  constructor() {}
-
+  share() {
+    window.alert('Product has been shared!')
+  }
   ngOnInit() {}
 }

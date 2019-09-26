@@ -5,4 +5,16 @@
       {{ product.name }}
     </a>
   </h3>
+
+  <p *ngIf="product.description">
+    {{ product.description }}
+  </p>
+
+  <p *ngIf="!product.description">
+    <i>This product does not have a description</i>
+  </p>
+
+  <button (click)="share()">
+    Share
+  </button>
 </div>
