@@ -14,4 +14,9 @@ export const products = [
     price: 299,
     description: '',
   },
+  {
+    name: 'Hot Dog',
+    price: 2.99,
+    description: 'Yummy hot dog only with ketchup. Available in vegetarian',
+  },
 ]
